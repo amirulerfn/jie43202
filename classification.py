@@ -148,6 +148,7 @@ sorted_df2 = scores.sort_values(by='Mean Score', ascending=False)
 # Show plot
 plt.tight_layout()
 plt.show()
+st.ppylot(plt.gcf())
 
 # Display sorted scores
 sorted_df2
